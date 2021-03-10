@@ -1,3 +1,59 @@
 /* ======================================================
    OEFENEN MET FLEXBOX
 ========================================================= */
+
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.two {
+    display: flex;
+    flex-direction: row;
+}
+.two-div-one {
+    flex: 1;
+}
+.tow-div-two {
+    flex: 0;
+}
+.three {
+    display: flex;
+    flex-direction: row;
+}
+.three-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style: none;
+    padding:0;
+    margin: 0;
+}
+.three-navigation li {
+    padding: 0 30px 10px;
+}
+.three-div-two {
+    display: flex;
+    flex-direction: row-reverse;
+    flex: auto;
+    align-items: center;
+}
+.form-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.five {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: orange;
+}
+/* er zit een padding van 20px op een article via styles.css, daarom 1/3 van 1200 - padding is 360px*/
+article {
+    flex-basis: 360px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
